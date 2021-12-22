@@ -34,10 +34,10 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: url("/images/background.jpg");
+  background-image: url("./images/background.jpg");
   background-attachment: fixed;
   background-position: center;
-
+  overflow-x: hidden;
 }
 
 section {
